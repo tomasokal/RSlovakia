@@ -1,0 +1,80 @@
+"OBJECTID","ID_0","ISO","NAME_0","ID_1","NAME_1","ID_2","NAME_2","TYPE_2","ENGTYPE_2","NL_NAME_2","VARNAME_2"
+1,207,"SVK","Slovakia",1,"Žilinský",1,"Žilina","Okres","District",NA,NA
+2,207,"SVK","Slovakia",1,"Žilinský",2,"Bytca","Okres","District",NA,NA
+3,207,"SVK","Slovakia",1,"Žilinský",3,"Cadca","Okres","District",NA,NA
+4,207,"SVK","Slovakia",1,"Žilinský",4,"Dolný Kubín","Okres","District",NA,NA
+5,207,"SVK","Slovakia",1,"Žilinský",5,"Kysucké Nové Mesto","Okres","District",NA,NA
+6,207,"SVK","Slovakia",1,"Žilinský",6,"Liptovský Mikuláš","Okres","District",NA,NA
+7,207,"SVK","Slovakia",1,"Žilinský",7,"Martin","Okres","District",NA,NA
+8,207,"SVK","Slovakia",1,"Žilinský",8,"Námestovo","Okres","District",NA,NA
+9,207,"SVK","Slovakia",1,"Žilinský",9,"Ružomberok","Okres","District",NA,NA
+10,207,"SVK","Slovakia",1,"Žilinský",10,"Turcianske Teplice","Okres","District",NA,NA
+11,207,"SVK","Slovakia",1,"Žilinský",11,"Tvrdošín","Okres","District",NA,NA
+12,207,"SVK","Slovakia",2,"Banskobystrický",12,"Žarnovica","Okres","District",NA,NA
+13,207,"SVK","Slovakia",2,"Banskobystrický",13,"Žiar nad Hronom","Okres","District",NA,NA
+14,207,"SVK","Slovakia",2,"Banskobystrický",14,"Banská Štiavnica","Okres","District",NA,NA
+15,207,"SVK","Slovakia",2,"Banskobystrický",15,"Banská Bystrica","Okres","District",NA,NA
+16,207,"SVK","Slovakia",2,"Banskobystrický",16,"Brezno","Okres","District",NA,NA
+17,207,"SVK","Slovakia",2,"Banskobystrický",17,"Detva","Okres","District",NA,NA
+18,207,"SVK","Slovakia",2,"Banskobystrický",18,"Krupina","Okres","District",NA,NA
+19,207,"SVK","Slovakia",2,"Banskobystrický",19,"Lucenec","Okres","District",NA,NA
+20,207,"SVK","Slovakia",2,"Banskobystrický",20,"Poltár","Okres","District",NA,NA
+21,207,"SVK","Slovakia",2,"Banskobystrický",21,"Revúca","Okres","District",NA,NA
+22,207,"SVK","Slovakia",2,"Banskobystrický",22,"Rimavská Sobota","Okres","District",NA,NA
+23,207,"SVK","Slovakia",2,"Banskobystrický",23,"Velký Krtíš","Okres","District",NA,NA
+24,207,"SVK","Slovakia",2,"Banskobystrický",24,"Zvolen","Okres","District",NA,NA
+25,207,"SVK","Slovakia",3,"Bratislavský",25,"Bratislava III","Okres","District",NA,NA
+26,207,"SVK","Slovakia",3,"Bratislavský",26,"Bratislava II","Okres","District",NA,NA
+27,207,"SVK","Slovakia",3,"Bratislavský",27,"Bratislava I","Okres","District",NA,NA
+28,207,"SVK","Slovakia",3,"Bratislavský",28,"Bratislava IV","Okres","District",NA,NA
+29,207,"SVK","Slovakia",3,"Bratislavský",29,"Bratislava V","Okres","District",NA,NA
+30,207,"SVK","Slovakia",3,"Bratislavský",30,"Malacky","Okres","District",NA,NA
+31,207,"SVK","Slovakia",3,"Bratislavský",31,"Pezinok","Okres","District",NA,NA
+32,207,"SVK","Slovakia",3,"Bratislavský",32,"Senec","Okres","District",NA,NA
+33,207,"SVK","Slovakia",4,"Košický",33,"Gelnica","Okres","District",NA,NA
+34,207,"SVK","Slovakia",4,"Košický",34,"Košice-okolie","Okres","District",NA,NA
+35,207,"SVK","Slovakia",4,"Košický",35,"Košice III","Okres","District",NA,NA
+36,207,"SVK","Slovakia",4,"Košický",36,"Košice II","Okres","District",NA,NA
+37,207,"SVK","Slovakia",4,"Košický",37,"Košice I","Okres","District",NA,NA
+38,207,"SVK","Slovakia",4,"Košický",38,"Košice IV","Okres","District",NA,NA
+39,207,"SVK","Slovakia",4,"Košický",39,"Michalovce","Okres","District",NA,NA
+40,207,"SVK","Slovakia",4,"Košický",40,"Rožnava","Okres","District",NA,NA
+41,207,"SVK","Slovakia",4,"Košický",41,"Sobrance","Okres","District",NA,NA
+42,207,"SVK","Slovakia",4,"Košický",42,"Spišská Nová Ves","Okres","District",NA,NA
+43,207,"SVK","Slovakia",4,"Košický",43,"Trebišov","Okres","District",NA,NA
+44,207,"SVK","Slovakia",5,"Nitriansky",44,"Šala","Okres","District",NA,NA
+45,207,"SVK","Slovakia",5,"Nitriansky",45,"Komárno","Okres","District",NA,NA
+46,207,"SVK","Slovakia",5,"Nitriansky",46,"Levice","Okres","District",NA,NA
+47,207,"SVK","Slovakia",5,"Nitriansky",47,"Nitra","Okres","District",NA,NA
+48,207,"SVK","Slovakia",5,"Nitriansky",48,"Nové Zámky","Okres","District",NA,NA
+49,207,"SVK","Slovakia",5,"Nitriansky",49,"Topolcany","Okres","District",NA,NA
+50,207,"SVK","Slovakia",5,"Nitriansky",50,"Zlaté Moravce","Okres","District",NA,NA
+51,207,"SVK","Slovakia",6,"Prešov",51,"Bardejov","Okres","District",NA,NA
+52,207,"SVK","Slovakia",6,"Prešov",52,"Humenné","Okres","District",NA,NA
+53,207,"SVK","Slovakia",6,"Prešov",53,"Kežmarok","Okres","District",NA,NA
+54,207,"SVK","Slovakia",6,"Prešov",54,"Levoca","Okres","District",NA,NA
+55,207,"SVK","Slovakia",6,"Prešov",55,"Medzilaborce","Okres","District",NA,NA
+56,207,"SVK","Slovakia",6,"Prešov",56,"Poprad","Okres","District",NA,NA
+57,207,"SVK","Slovakia",6,"Prešov",57,"Prešov","Okres","District",NA,NA
+58,207,"SVK","Slovakia",6,"Prešov",58,"Sabinov","Okres","District",NA,NA
+59,207,"SVK","Slovakia",6,"Prešov",59,"Snina","Okres","District",NA,NA
+60,207,"SVK","Slovakia",6,"Prešov",60,"Stará Lubovna","Okres","District",NA,NA
+61,207,"SVK","Slovakia",6,"Prešov",61,"Stropkov","Okres","District",NA,NA
+62,207,"SVK","Slovakia",6,"Prešov",62,"Svidník","Okres","District",NA,NA
+63,207,"SVK","Slovakia",6,"Prešov",63,"Vranov nad Toplou","Okres","District",NA,NA
+64,207,"SVK","Slovakia",7,"Trenciansky",64,"Bánovce nad Bebravou","Okres","District",NA,NA
+65,207,"SVK","Slovakia",7,"Trenciansky",65,"Ilava","Okres","District",NA,NA
+66,207,"SVK","Slovakia",7,"Trenciansky",66,"Myjava","Okres","District",NA,NA
+67,207,"SVK","Slovakia",7,"Trenciansky",67,"Nové Mesto nad Váhom","Okres","District",NA,NA
+68,207,"SVK","Slovakia",7,"Trenciansky",68,"Púchov","Okres","District",NA,NA
+69,207,"SVK","Slovakia",7,"Trenciansky",69,"Partizánske","Okres","District",NA,NA
+70,207,"SVK","Slovakia",7,"Trenciansky",70,"Považská Bystrica","Okres","District",NA,NA
+71,207,"SVK","Slovakia",7,"Trenciansky",71,"Prievidza","Okres","District",NA,NA
+72,207,"SVK","Slovakia",7,"Trenciansky",72,"Trencín","Okres","District",NA,NA
+73,207,"SVK","Slovakia",8,"Trnavský",73,"Dunajská Streda","Okres","District",NA,NA
+74,207,"SVK","Slovakia",8,"Trnavský",74,"Galanta","Okres","District",NA,NA
+75,207,"SVK","Slovakia",8,"Trnavský",75,"Hlohovec","Okres","District",NA,NA
+76,207,"SVK","Slovakia",8,"Trnavský",76,"Pieštany","Okres","District",NA,NA
+77,207,"SVK","Slovakia",8,"Trnavský",77,"Senica","Okres","District",NA,NA
+78,207,"SVK","Slovakia",8,"Trnavský",78,"Skalica","Okres","District",NA,NA
+79,207,"SVK","Slovakia",8,"Trnavský",79,"Trnava","Okres","District",NA,NA
