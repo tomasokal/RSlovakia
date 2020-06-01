@@ -20,3 +20,5 @@ Republic datasets which was in turn inspired by the
   - Protected natural areas of Slovakia
   - Forests of Slovakia
   - Terrain of Slovakia
+
+<http://www.diva-gis.org/gdata>
