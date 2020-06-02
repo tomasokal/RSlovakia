@@ -15,7 +15,7 @@
 #' @examples 
 #' library(sf)
 #' regions <- kraje()
-#' plot(regions)
+#' plot(regions, col = sf.colors(8, categorical = TRUE))
 #' 
 #' @export
 #' 
