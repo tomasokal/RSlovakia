@@ -24,7 +24,7 @@ This is work in progress to download a set of shapefiles relevant to Slovakia. I
 
 Here is a walkthrough of the current functionality of the package.
 
-```{r, echo = FALSE, warning = FALSE}
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
 
 library(RSlovakia)
 library(sf)
@@ -46,15 +46,15 @@ ggplot2::ggplot(data = borders) +
 
 ### Regions (Kraje)
 
-```{r, echo = FALSE, warning = FALSE}
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
 
 regions <- kraje()
 ggplot2::ggplot(data = regions) +
   geom_sf() +
-  geom_sf_label(aes(label = kraj))
+  geom_sf_label(mapping = aes(label = kraj)) +
   theme_minimal() +
   labs(title = "Slovakia", subtitle = "Regions: kraje()")
-
+  
 ```
 
 ### Counties (Okresy)
