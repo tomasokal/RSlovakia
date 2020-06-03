@@ -1,1 +1,3 @@
 ^EUROPA_SHAPEFILES$
+^.*\.Rproj$
+^\.Rproj\.user$

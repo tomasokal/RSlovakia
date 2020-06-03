@@ -4,7 +4,7 @@
 #' 
 #' Due to stage of package development, this data is downloaded with the package.
 #' 
-#' @format \code{sf} data frame with 79 row of 2 variable + geometry:
+#' @format \code{sf} data frame with 79 row of 2 variables + geometry:
 #' 
 #' \describe{
 #'   \item{kraj}{Name of the region (kraj).}

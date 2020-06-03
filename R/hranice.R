@@ -1,4 +1,4 @@
-#' Borders (republika)
+#' Borders (hranice)
 #' 
 #' Function returning boundaries of Slovakia as \code{sf} polygon.
 #' 
@@ -15,10 +15,10 @@
 #' 
 #' @export
 #' 
-republika <- function() {
+hranice <- function() {
   
-  republika_obj <- readRDS("DATA_RAW//republika")
+  hranice_obj <- readRDS("DATA_RAW//republika")
   
-  return(republika_obj)
+  return(hranice_obj)
   
 }
