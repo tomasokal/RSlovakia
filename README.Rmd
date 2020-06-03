@@ -53,7 +53,10 @@ ggplot2::ggplot(data = regions) +
   geom_sf() +
   geom_sf_label(mapping = aes(label = kraj)) +
   theme_minimal() +
-  labs(title = "Slovakia", subtitle = "Regions: kraje()")
+  labs(title = "Slovakia", subtitle = "Regions: kraje()") +
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank()
+        )
   
 ```
 
