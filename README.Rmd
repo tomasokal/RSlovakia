@@ -1,0 +1,100 @@
+---
+output: github_document
+---
+
+# RSlovakia
+
+This is work in progress to download a set of shapefiles relevant to Slovakia. It was inspired by the popular [RCzechia](https://github.com/jlacko/RCzechia) package for Czech Republic datasets which was in turn inspired by the [tigris](https://github.com/walkerke/tigris) package.
+
+## The following spatial objects are planned to be included:
+
+* Borders of Slovakia [DONE]
+* Regions of Slovakia [DONE]
+* Counties of Slovakia [DONE]
+* Municipalities of Slovakia
+* City parts of cities with defined parts in Slovakia
+* Waterways of Slovakia
+* Roads of Slovakia [DONE]
+* Railroads of Slovakia [DONE]
+* Protected natural areas of Slovakia
+* Forests of Slovakia
+* Terrain of Slovakia
+
+## Demo of current functionality
+
+Here is a walkthrough of the current functionality of the package.
+
+```{r, echo = FALSE, warning = FALSE}
+
+library(RSlovakia)
+library(sf)
+library(ggplot2)
+
+```
+
+### Borders (Hranice)
+
+```{r, echo = FALSE, warning = FALSE}
+
+borders <- hranice()
+ggplot2::ggplot(data = borders) +
+  geom_sf() +
+  theme_minimal() +
+  labs(title = "Slovakia", subtitle = "National borders: hranice()")
+
+```
+
+### Regions (Kraje)
+
+```{r, echo = FALSE, warning = FALSE}
+
+regions <- kraje()
+ggplot2::ggplot(data = regions) +
+  geom_sf() +
+  geom_sf_label(aes(label = kraj))
+  theme_minimal() +
+  labs(title = "Slovakia", subtitle = "Regions: kraje()")
+
+```
+
+### Counties (Okresy)
+
+```{r, echo = FALSE, warning = FALSE}
+
+counties <- okresy()
+ggplot2::ggplot(data = counties) +
+  geom_sf(aes(fill = kraj)) +
+  theme_minimal() +
+  labs(title = "Slovakia", subtitle = "Counties: okresy()")
+
+```
+
+### Roads (Cesty)
+
+```{r, echo = FALSE, warning = FALSE}
+
+roads <- cesty()
+borders <- hranice()
+ggplot2::ggplot() +
+  geom_sf(data = borders) +
+  geom_sf(data = roads, aes(color = oddelovac)) +
+  theme_minimal() +
+  labs(title = "Slovakia", subtitle = "Roads: cesty()")
+
+```
+
+### Railroads (Zeleznice)
+
+```{r, echo = FALSE, warning = FALSE}
+
+rails <- zeleznice()
+borders <- hranice()
+ggplot2::ggplot() +
+  geom_sf(data = borders) +
+  geom_sf(data = rails, aes(color = prevadzkova)) +
+  theme_minimal() +
+  labs(title = "Slovakia", subtitle = "Railroads: zeleznice()")
+
+```
+
+Currently, all of the data is being downloaded and transformed from [diva-gis.org](http://www.diva-gis.org/gdata).
