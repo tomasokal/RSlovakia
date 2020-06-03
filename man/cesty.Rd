@@ -3,13 +3,15 @@
 \name{cesty}
 \alias{cesty}
 \title{Roads (cesty)}
-\format{\code{sf} data frame with 430 row of 3 variables + geometry:
+\format{
+\code{sf} data frame with 430 row of 3 variables + geometry:
 
 \describe{
   \item{oddelovac}{Median type of road.}
   \item{trasa}{Route (primary or unknown).}
   \item{typ}{Type of road}
-}}
+}
+}
 \source{
 \url{http://www.diva-gis.org/gdata}
 }
@@ -21,10 +23,4 @@ Function returning roads of Slovakia as \code{sf} polygon.
 }
 \details{
 Due to stage of package development, this data is downloaded with the package.
-}
-\examples{
-library(sf)
-roads <- cesty()
-plot(roads)
-
 }

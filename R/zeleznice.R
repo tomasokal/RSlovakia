@@ -13,11 +13,6 @@
 #' }
 #' 
 #' @source \url{http://www.diva-gis.org/gdata}
-#'
-#' @examples 
-#' library(sf)
-#' rails <- zeleznice()
-#' plot(rails)
 #' 
 #' @export
 #' 

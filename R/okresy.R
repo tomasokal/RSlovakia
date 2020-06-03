@@ -12,11 +12,6 @@
 #' }
 #' 
 #' @source \url{http://www.diva-gis.org/gdata}
-#'
-#' @examples 
-#' library(sf)
-#' counties <- okresy()
-#' plot(counties)
 #' 
 #' @export
 #' 

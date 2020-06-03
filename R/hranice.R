@@ -7,11 +7,6 @@
 #' @format \code{sf} data frame with 1 row of geometry:
 #' 
 #' @source \url{http://www.diva-gis.org/gdata}
-#'
-#' @examples 
-#' library(sf)
-#' borders <- republika()
-#' plot(borders, col = "blue")
 #' 
 #' @export
 #' 

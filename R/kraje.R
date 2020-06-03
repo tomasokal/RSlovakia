@@ -11,11 +11,6 @@
 #' }
 #' 
 #' @source \url{http://www.diva-gis.org/gdata}
-#'
-#' @examples 
-#' library(sf)
-#' regions <- kraje()
-#' plot(regions, col = sf.colors(8, categorical = TRUE))
 #' 
 #' @export
 #' 

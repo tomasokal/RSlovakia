@@ -12,12 +12,7 @@
 #'   \item{typ}{Type of road}
 #' }
 #' 
-#' @source \url{http://www.diva-gis.org/gdata}
-#'
-#' @examples 
-#' library(sf)
-#' roads <- cesty()
-#' plot(roads)
+#' @source \url{http://www.diva-gis.org/gdata} 
 #' 
 #' @export
 #' 
