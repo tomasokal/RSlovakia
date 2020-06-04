@@ -4,7 +4,7 @@
 \alias{zeleznice}
 \title{Railways (zeleznice)}
 \format{
-\code{sf} data frame with 261 row of 3 variables + geometry:
+\code{sf} data frame with 261 rows of 3 variables + geometry:
 
 \describe{
   \item{rail_id}{ID of rail.}

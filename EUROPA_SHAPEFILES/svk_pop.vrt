@@ -1,0 +1,15 @@
+<VRTDataset rasterXSize="500" rasterYSize="171">
+<GeoTransform>16.73333, 0.0119, 0, 49.68333, 0, -0.01189084</GeoTransform>
+<SRS>+proj=longlat +datum=WGS84 +ellps=WGS84 +towgs84=0,0,0</SRS>
+	<VRTRasterBand dataType="Int16" band="1" subClass="VRTRawRasterBand">
+		<Description>svk_pop</Description>
+		<SourceFilename relativetoVRT="1">svk_pop.gri</SourceFilename>
+		<ImageOffset>0</ImageOffset>
+		<PixelOffset>2</PixelOffset>
+		<LineOffset>1000</LineOffset>
+		<ByteOrder>LSB</ByteOrder>
+		<NoDataValue>-9999</NoDataValue>
+		<Offset>0</Offset>
+		<Scale>1</Scale>
+	</VRTRasterBand>
+</VRTDataset>

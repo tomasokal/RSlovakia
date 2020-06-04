@@ -45,5 +45,9 @@ Here is a walkthrough of the current functionality of the package.
 
 ![](README_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
 
+### Rivers and Lakes and Inland Water (Rieky)
+
+![](README_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+
 Currently, all of the data is being downloaded and transformed from
 [diva-gis.org](http://www.diva-gis.org/gdata).

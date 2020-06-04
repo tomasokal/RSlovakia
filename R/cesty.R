@@ -4,7 +4,7 @@
 #' 
 #' Due to stage of package development, this data is downloaded with the package.
 #' 
-#' @format \code{sf} data frame with 430 row of 3 variables + geometry:
+#' @format \code{sf} data frame with 430 rows of 3 variables + geometry:
 #' 
 #' \describe{
 #'   \item{oddelovac}{Median type of road.}

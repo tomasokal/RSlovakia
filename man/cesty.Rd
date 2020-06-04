@@ -4,7 +4,7 @@
 \alias{cesty}
 \title{Roads (cesty)}
 \format{
-\code{sf} data frame with 430 row of 3 variables + geometry:
+\code{sf} data frame with 430 rows of 3 variables + geometry:
 
 \describe{
   \item{oddelovac}{Median type of road.}

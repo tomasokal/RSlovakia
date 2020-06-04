@@ -100,4 +100,20 @@ ggplot2::ggplot() +
 
 ```
 
+### Rivers and Lakes and Inland Water (Rieky)
+
+```{r, echo = FALSE, warning = FALSE}
+
+rivers <- rieky()
+lakes <- jazera()
+borders <- hranice()
+ggplot2::ggplot() +
+  geom_sf(data = borders) +
+  geom_sf(data = rivers, color = "blue", alpha = 0.3) +
+  geom_sf(data = lakes, fill = "blue") +
+  theme_minimal() +
+  labs(title = "Slovakia", subtitle = "Rivers and Lakes and Inland Water: rieky() and jazera()")
+
+```
+
 Currently, all of the data is being downloaded and transformed from [diva-gis.org](http://www.diva-gis.org/gdata).

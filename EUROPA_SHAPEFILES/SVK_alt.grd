@@ -1,0 +1,27 @@
+[general] 
+creator=R package 'raster' 
+created= 2011-11-12 14:41:53 
+[georeference] 
+nrows= 252 
+ncols= 720 
+xmin= 16.7 
+ymin= 47.6 
+xmax= 22.7 
+ymax= 49.7 
+projection= +proj=longlat +ellps=WGS84 
+[data] 
+datatype= INT2S 
+byteorder= little 
+nbands= 1 
+bandorder= BIL 
+categorical= FALSE 
+minvalue= 39 
+maxvalue= 2365 
+nodatavalue= -9999 
+[legend] 
+legendtype=  
+values=  
+color=  
+[description] 
+layername= SVK_alt 
+history=  
