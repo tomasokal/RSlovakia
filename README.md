@@ -12,14 +12,12 @@ Republic datasets which was in turn inspired by the
   - Borders of Slovakia \[DONE\]
   - Regions of Slovakia \[DONE\]
   - Counties of Slovakia \[DONE\]
-  - Municipalities of Slovakia
-  - City parts of cities with defined parts in Slovakia
-  - Waterways of Slovakia
+  - Population of Slovakia
+  - Elevation/terrain of Slovakia
+  - Waterways of Slovakia \[DONE\]
   - Roads of Slovakia \[DONE\]
   - Railroads of Slovakia \[DONE\]
-  - Protected natural areas of Slovakia
   - Forests of Slovakia
-  - Terrain of Slovakia
 
 ## Demo of current functionality
 
