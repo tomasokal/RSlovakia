@@ -3,13 +3,11 @@
 \name{rieky}
 \alias{rieky}
 \title{Rivers (rieky)}
-\format{
-\code{sf} data frame with 396 rows of 1 variable + geometry:
+\format{\code{sf} data frame with 396 rows of 1 variable + geometry:
 
 \describe{
   \item{rieka}{Name of the river (rieka).}
-}
-}
+}}
 \source{
 \url{http://www.diva-gis.org/gdata}
 }

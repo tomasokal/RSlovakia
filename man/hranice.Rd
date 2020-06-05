@@ -3,9 +3,7 @@
 \name{hranice}
 \alias{hranice}
 \title{Borders (hranice)}
-\format{
-\code{sf} data frame with 1 row of geometry:
-}
+\format{\code{sf} data frame with 1 row of geometry:}
 \source{
 \url{http://www.diva-gis.org/gdata}
 }

@@ -3,13 +3,11 @@
 \name{kraje}
 \alias{kraje}
 \title{Regions (kraje)}
-\format{
-\code{sf} data frame with 8 rows of 1 variable + geometry:
+\format{\code{sf} data frame with 8 rows of 1 variable + geometry:
 
 \describe{
   \item{kraj}{Name of the region (kraj).}
-}
-}
+}}
 \source{
 \url{http://www.diva-gis.org/gdata}
 }
