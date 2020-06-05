@@ -6,17 +6,22 @@ output: github_document
 
 This is work in progress to download a set of shapefiles relevant to Slovakia. It was inspired by the popular [RCzechia](https://github.com/jlacko/RCzechia) package for Czech Republic datasets which was in turn inspired by the [tigris](https://github.com/walkerke/tigris) package.
 
-## The following spatial objects are planned to be included:
+## The following points of interest are currently included:
 
-* Borders of Slovakia [DONE]
-* Regions of Slovakia [DONE]
-* Counties of Slovakia [DONE]
-* Population of Slovakia
-* Elevation/terrain of Slovakia
-* Waterways of Slovakia [DONE]
-* Roads of Slovakia [DONE]
-* Railroads of Slovakia [DONE]
-* Forests of Slovakia
+* Borders
+* Regions
+* Counties
+* Waterways (Rivers and Lakes)
+* Roads
+* Railroads
+* Airports
+
+#### Planning to add the following points of interest during development:
+
+* Population and demographics
+* Physical geography such as elevation, forests, etc.
+* Points of interest such as parks, churches, schools, government buildings, etc.
+* Development, education, health, transport, etc. indicators
 
 ## Demo of current functionality
 
@@ -114,4 +119,22 @@ ggplot2::ggplot() +
 
 ```
 
-Currently, all of the data is being downloaded and transformed from [diva-gis.org](http://www.diva-gis.org/gdata).
+### Points of Interest - Airports (Letiska)
+
+```{r, echo = FALSE, warning = FALSE}
+
+borders <- hranice()
+airports <- letiska()
+airports$type <- factor(airports$type, levels = c("small_airport", "medium_airport", "large_airport", "closed"))
+ggplot2::ggplot() +
+  geom_sf(data = borders) +
+  geom_point(data = subset(airports, !type == "closed"), aes(x = longitude_deg, y = latitude_deg, size = type, alpha = type)) +
+  theme_minimal() +
+  labs(title = "Slovakia", subtitle = "Airports: letiska()", alpha = "Airport Type", size = "Airport Type") +
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank()) +
+  scale_size_discrete(labels = c("Small", "Medium", "Large")) +
+  scale_alpha_discrete(labels = c("Small", "Medium", "Large"))
+  
+
+```

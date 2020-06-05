@@ -7,17 +7,24 @@ Slovakia. It was inspired by the popular
 Republic datasets which was in turn inspired by the
 [tigris](https://github.com/walkerke/tigris) package.
 
-## The following spatial objects are planned to be included:
+## The following points of interest are currently included:
 
-  - Borders of Slovakia \[DONE\]
-  - Regions of Slovakia \[DONE\]
-  - Counties of Slovakia \[DONE\]
-  - Population of Slovakia
-  - Elevation/terrain of Slovakia
-  - Waterways of Slovakia \[DONE\]
-  - Roads of Slovakia \[DONE\]
-  - Railroads of Slovakia \[DONE\]
-  - Forests of Slovakia
+  - Borders
+  - Regions
+  - Counties
+  - Waterways (Rivers and
+Lakes)
+  - Roads
+  - Railroads
+  - Airports
+
+#### Planning to add the following points of interest during development:
+
+  - Population and demographics
+  - Physical geography such as elevation, forests, etc.
+  - Points of interest such as parks, churches, schools, government
+    buildings, etc.
+  - Development, education, health, transport, etc. indicators
 
 ## Demo of current functionality
 
@@ -47,5 +54,6 @@ Here is a walkthrough of the current functionality of the package.
 
 ![](README_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
 
-Currently, all of the data is being downloaded and transformed from
-[diva-gis.org](http://www.diva-gis.org/gdata).
+### Points of Interest - Airports (Letiska)
+
+![](README_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
